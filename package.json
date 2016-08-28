@@ -1,0 +1,14 @@
+{
+	"name": "NGPortfolioApp",
+	"version": "0.1.0",
+	"description": "My portfolion/resume as a MEAN webApp.",
+	"main": "server.js",
+	"scripts": {
+		
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.14.0",
+		"angular": "^1.5.8"
+	}
+}
