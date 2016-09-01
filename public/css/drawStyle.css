@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+canvas#drcan {
+	padding: 1px;
+	border: 1px solid #000000;
+}
+
+footer {
+	font-size: xx-small;
+}

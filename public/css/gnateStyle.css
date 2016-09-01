@@ -1,0 +1,202 @@
+@CHARSET "UTF-8";
+
+header {
+	border-style: outset;
+	border-color: #CAA400;
+	background-color: #196629;
+}
+
+div.headLeftColumn {
+	width: 15%;
+	display: inline-block;
+}
+
+div.headRightColumn {
+	width: 84%;
+	display: inline-block;
+	padding-left: 0.5%;
+}
+
+div.body {
+	border-style: inset;
+	border-color: #EB7C00;
+	background-color: #30813A;
+}
+
+div.fractalForm-group {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+div.fractalFrom-row {
+	padding-bottom: 2%;
+}
+
+label {
+	display: inline;
+	padding-right: 1%;
+}
+
+label#x-min {
+	padding-left: 2.9em;
+}
+
+label#y-min {
+	padding-left: 2.9em;
+}
+
+label#x-max {
+	padding-left: 1em;
+}
+
+label#y-max {
+	padding-left: 1em;
+}
+
+label#color-one {
+	padding-left: 1.65em;
+}
+
+label#color-two {
+	padding-left: 1.55em;
+}
+
+label#color-three {
+	padding-left: 1em;
+}
+
+input {	
+	display: inline;
+	width: 10%;
+}
+
+input#escape-val {
+
+}
+
+input#x-min {
+}
+
+input#x-max {
+
+}
+
+input#y-min {
+
+}
+
+input#y-max {
+
+}
+
+button#fractal-submit {
+	margin-left: 7%;
+}
+
+img.header {
+	width: 100%;
+	height: 100%;
+	border-style: outset;
+	border-width: medium;
+	border-color: gold;
+}
+
+img.banner {
+	width: 100%;
+	height: 100%;
+}
+
+footer#index {
+	border-style: outset;
+	border-color: #CAA400;
+	background-color: #196629;
+	text-align: center;
+	font-size: small;
+}
+
+footer#tributeFoot {
+	font-size: xx-small;
+}
+
+canvas#tributeCan {
+	padding: 1px;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+}
+
+canvas#fractal-canvas {
+	padding-left: 0.25%;
+	padding-top: 2%;
+}
+
+dt.topic {
+	text-decoration: underline;
+	padding-left: 8%;
+	padding-right: 5%;
+}
+
+dt.list {
+	padding-left: 8%;
+	padding-right: 5%;
+}
+
+dd {
+	padding-left: 8%;
+	padding-right: 5%;
+}
+
+h1.title {
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: x-large;
+}
+
+h3.list {
+	padding-left: 5%;
+	padding-right: 5%;
+	text-decoration: underline;
+	color: #EB7C00;
+	font-size: larger;
+}
+
+h4.list {
+	padding-left: 8%;
+	padding-right: 5%;
+	font-size: larger;
+}
+
+p.header {
+	display: inline;
+	padding-left: 0.5%;
+}
+
+p.indented {
+	padding-left: 5%;
+}
+
+p.license {
+	font-size: xx-small;
+}
+
+p.itallcizeInline {
+	display: inline;
+	font-style: italic;
+}
+
+p.aboutMe {
+	text-indent: 3em;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 1%; 
+	border-bottom-style: ridge;
+	border-bottom-width: thick;
+	border-bottom-color: #A87B00;
+}
+
+body {
+	border-style: ridge ridge ridge ridge;
+	border-width: thick;
+	border-color: #A87B00;
+	background-color: #1D732E;
+	font-size: medium;
+}

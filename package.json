@@ -1,14 +1,17 @@
 {
-	"name": "NGPortfolioApp",
-	"version": "0.1.0",
-	"description": "My portfolion/resume as a MEAN webApp.",
-	"main": "server.js",
-	"scripts": {
-		
-		"start": "node server.js"
-	},
-	"dependencies": {
-		"express": "^4.14.0",
-		"angular": "^1.5.8"
-	}
+  "name": "NGPortfolioApp",
+  "version": "0.1.0",
+  "description": "My portfolion/resume as a MEAN webApp.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "file-stream-rotator": "0.0.7",
+    "morgan": "^1.7.0"
+  }
 }

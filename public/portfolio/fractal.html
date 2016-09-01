@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="../css/gnateStyle.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="../js/fractal.js"></script>
+		<style type="text/css"></style> 
+		<script type="text/javascript">
+			window.onload = init;
+		</script>
+	</head>
+	
+	<body>
+		<div class="fractalForm-group">
+			<form role="form" id="fractal-form" onsubmit="return false;">
+				<div class="fractalForm-row">
+					<label id="escape-val">Escape Value:</label>
+					<input type="text" id="escape" min="3" max="5000" value="36"/>
+				</div>
+				<div class="fractalForm-row">
+					<label id="x-min">X Min:</label>
+					<input type="text" id="xMin" min="-2.5" max="0.9" value="-2.5"/>
+					<label id="x-max">X Max:</label>
+					<input type="text" id="xMax" min="-2.4" max="1" value="1"/>
+				</div>
+				<div class="fractalForm-row">
+					<label id="y-min">Y Min:</label>
+					<input type="text" id="yMin" min="-1" max="0.9" value="-1"/>
+					<label id="y-max">Y Max:</label>
+					<input type="text" id="yMax" min="-0.9" max="1" value="1"/>
+				</div>
+				<div class="fractalForm-row">
+					<label id="color-one">Color One:</label>
+					<input type="color" id="colorOne" value="#FFFFFF" />		
+				</div>
+				<div class="fractalForm-row">
+					<label id="color-two">Color Two:</label>
+					<input type="color" id="colorTwo" value="#000000" />		
+				</div>
+				<div class="fractalForm-row">
+					<label id="color-three">Color Three:</label>
+					<input type="color" id="colorThree" value="#00C6C6" />		
+				</div>
+				<div class="fractalForm-row">
+					<button id="fractal-submit" type="submit" onclick="generateFractal();">Submit</button>
+				</div>
+			</form>
+		</div>
+		
+		<div>
+			<canvas id="fractal-canvas" width="1280" height="720"> </canvas>
+		</div>
+		<footer id="tributeFoot">
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+			<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+			<br />
+				<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Mandelbrot Generator</span> 
+				by <a xmlns:cc="http://creativecommons.org/ns#" href="www.cs.colostate.edu/~gnate" property="cc:attributionName" rel="cc:attributionURL">Nate Gillard</a> 
+				is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+			<br />
+			Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://en.wikipedia.org/wiki/Mandelbrot_set#Escape_time_algorithm" rel="dct:source">Mandelbrot set Escape time algorithm</a>
+		</footer>
+	</body>
+</html>
+

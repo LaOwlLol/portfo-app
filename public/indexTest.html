@@ -2,7 +2,11 @@
 <meta charset="UTF-8">
 <html lang="en">
 	<body ng-app="PortfolioApp" ng-controller="PortCtrl as pctrl">
-		
+		<div>{{greetings[lang]}} World</div>
+		<div><button ng-click="changeLang()">Change Now!</button></div>
+		<div>
+			{{lang}}
+		</div>
 	</body>
 	<script src="libs/angular/angular.js"></script>
 	<script src="libs/angular-route/angular-route.js"></script>
